@@ -17,6 +17,7 @@ public class WriteTextFile {
         listSP.add(new SanPham("sp01", "Gạo", 30000));
         listSP.add(new SanPham("sp02", "Đường", 20000));
         listSP.add(new SanPham("sp03", "Muối", 15000));
+        
         try {
             FileWriter fw = new FileWriter("sanpham.txt");
             for(SanPham sp : listSP){

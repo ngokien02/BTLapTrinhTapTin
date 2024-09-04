@@ -13,6 +13,7 @@ public class ReadTextFile {
     public static void main(String[] args) {
         ArrayList<SanPham> listSP = new ArrayList<>();
         try {
+            
             FileReader fr = new FileReader("sanpham.txt");
             BufferedReader br = new BufferedReader(fr);
             String data = null;

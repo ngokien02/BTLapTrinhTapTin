@@ -13,6 +13,7 @@ import java.io.Serializable;
 public class SanPham implements Serializable{
     private String maSo, ten;
     private float gia;
+    
 
     public SanPham(String maSo, String ten, float gia) {
         this.maSo = maSo;

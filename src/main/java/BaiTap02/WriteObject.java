@@ -16,6 +16,7 @@ public class WriteObject {
         listSP.add(new SanPham("sp01", "Gạo", 30000));
         listSP.add(new SanPham("sp02", "Đường", 20000));
         listSP.add(new SanPham("sp03", "Muối", 15000));
+        
         try{
             FileOutputStream fos = new FileOutputStream("sanpham.bin");
             ObjectOutputStream oos = new ObjectOutputStream(fos);

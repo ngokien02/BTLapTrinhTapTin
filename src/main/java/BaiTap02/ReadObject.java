@@ -23,6 +23,7 @@ public class ReadObject {
             for(SanPham sp : listSP){
                 System.out.println(sp);
             }
+            
             ois.close();
             
         } catch (Exception ex) {
